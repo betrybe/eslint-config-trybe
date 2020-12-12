@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-trybe-frontend",
+  "version": "1.0.0",
+  "description": "ESLint shared config used by Trybe on frontend projects",
+  "main": "config.json",
+  "keywords": [
+    "eslint",
+    "trybe",
+    "frontend"
+  ],
+  "author": "Roz <roz@rjmunhoz.me>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "eslint": "6.8.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "eslint-plugin-react-redux": "^3.3.0",
+    "eslint-plugin-sonarjs": "^0.5.0"
+  }
+}
