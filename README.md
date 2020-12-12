@@ -44,3 +44,16 @@ The config file should be named `config.json`, and this should be the entrypoint
 
 The folder name should be everything that comes after `eslint-config-trybe` in the package name. So,
 for `eslint-config-trybe-new-module`, the package folder should be called `new-module`.
+
+## Publishing
+
+This is a monorepo managed by [Lerna](https://github.com/lerna/lerna). You should read Lerna's docs
+before publishing.
+
+The versioning mode is `independent`.
+
+To publish changed packages, simply run:
+
+```shell
+$ npx lerna publish
+```
