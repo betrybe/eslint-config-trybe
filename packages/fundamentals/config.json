@@ -1,11 +1,11 @@
 {
   "root": true,
   "extends": [
-    "airbnb/base", 
+    "airbnb/base",
     "plugin:editorconfig/noconflict"
   ],
   "plugins": [
-    "sonarjs", 
+    "sonarjs",
     "editorconfig"
   ],
   "rules": {
@@ -42,6 +42,13 @@
     "max-lines-per-function": [
       "error",
       20
+    ],
+    "max-len": [
+      "error",
+      {
+        "code": 100,
+        "ignoreComments": true
+      }
     ],
     "complexity": [
       "error",
