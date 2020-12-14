@@ -1,10 +1,15 @@
 {
   "root": true,
-  "extends": "airbnb/base",
+  "extends": [
+    "airbnb/base", 
+    "plugin:editorconfig/noconflict"
+  ],
   "plugins": [
-    "sonarjs"
+    "sonarjs", 
+    "editorconfig"
   ],
   "rules": {
+    "editorconfig/editorconfig": "error",
     "no-console": "off",
     "no-alert": "off",
     "arrow-parens": [
