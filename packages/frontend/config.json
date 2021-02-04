@@ -5,7 +5,8 @@
   },
   "extends": [
     "plugin:react/recommended",
-    "airbnb"
+    "airbnb",
+    "eslint:recommended"
   ],
   "parserOptions": {
     "ecmaFeatures": {
@@ -36,15 +37,22 @@
     "class-methods-use-this": [
       "off"
     ],
-    "complexity": [
-      "off",
-      11
+    "no-underscore-dangle": [
+      "error",
+      {
+        "allow": [
+          "__REDUX_DEV_TOOLS_EXTENSION_COMPOSE__"
+        ]
+      }
     ],
     "no-magic-numbers": [
       "error",
       {
         "ignore": [
-          1
+          0,
+          1,
+          2,
+          100
         ],
         "ignoreArrayIndexes": true,
         "enforceConst": true,
@@ -89,7 +97,11 @@
     ],
     "max-lines-per-function": [
       "error",
-      20
+      50
+    ],
+    "complexity": [
+      "error",
+      15
     ],
     "object-curly-newline": [
       "off"
@@ -100,21 +112,6 @@
     "sonarjs/cognitive-complexity": [
       "error",
       15
-    ],
-    "sonarjs/no-one-iteration-loop": [
-      "error"
-    ],
-    "sonarjs/no-identical-expressions": [
-      "error"
-    ],
-    "sonarjs/no-use-of-empty-return-value": [
-      "error"
-    ],
-    "sonarjs/no-extra-arguments": [
-      "error"
-    ],
-    "sonarjs/no-identical-conditions": [
-      "error"
     ],
     "sonarjs/no-collapsible-if": [
       "error"
@@ -128,13 +125,31 @@
     "sonarjs/no-duplicated-branches": [
       "error"
     ],
+    "sonarjs/no-extra-arguments": [
+      "error"
+    ],
+    "sonarjs/no-identical-conditions": [
+      "error"
+    ],
+    "sonarjs/no-identical-expressions": [
+      "error"
+    ],
     "sonarjs/no-identical-functions": [
+      "error"
+    ],
+    "sonarjs/no-inverted-boolean-check": [
+      "error"
+    ],
+    "sonarjs/no-one-iteration-loop": [
       "error"
     ],
     "sonarjs/no-redundant-boolean": [
       "error"
     ],
     "sonarjs/no-unused-collection": [
+      "error"
+    ],
+    "sonarjs/no-use-of-empty-return-value": [
       "error"
     ],
     "sonarjs/no-useless-catch": [
@@ -144,9 +159,6 @@
       "error"
     ],
     "sonarjs/prefer-single-boolean-return": [
-      "error"
-    ],
-    "sonarjs/no-inverted-boolean-check": [
       "error"
     ],
     "react/jsx-filename-extension": [
