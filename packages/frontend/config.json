@@ -16,6 +16,8 @@
   },
   "plugins": [
     "react",
+    "react-redux",
+    "react-hooks",
     "sonarjs"
   ],
   "rules": {
@@ -34,6 +36,14 @@
     ],
     "class-methods-use-this": [
       "off"
+    ],
+    "no-underscore-dangle": [
+      "error",
+      {
+        "allow": [
+          "__REDUX_DEV_TOOLS_EXTENSION_COMPOSE__"
+        ]
+      }
     ],
     "no-magic-numbers": [
       "error",
@@ -58,9 +68,6 @@
       }
     ],
     "no-console": [
-      "off"
-    ],
-    "no-underscore-dangle": [
       "off"
     ],
     "no-param-reassign": [
@@ -312,6 +319,14 @@
         "logical": "ignore",
         "prop": "ignore"
       }
-    ]
+    ],
+    "react-redux/connect-prefer-named-arguments": [
+      "error"
+    ],
+    "react-redux/no-unused-prop-types": [
+      "error"
+    ],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
   }
 }
