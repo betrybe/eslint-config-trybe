@@ -5,7 +5,8 @@
   },
   "extends": [
     "plugin:react/recommended",
-    "airbnb"
+    "airbnb",
+    "eslint:recommended"
   ],
   "parserOptions": {
     "ecmaFeatures": {
@@ -15,8 +16,6 @@
   },
   "plugins": [
     "react",
-    "react-redux",
-    "react-hooks",
     "sonarjs"
   ],
   "rules": {
@@ -36,15 +35,14 @@
     "class-methods-use-this": [
       "off"
     ],
-    "complexity": [
-      "off",
-      11
-    ],
     "no-magic-numbers": [
       "error",
       {
         "ignore": [
-          1
+          0,
+          1,
+          2,
+          100
         ],
         "ignoreArrayIndexes": true,
         "enforceConst": true,
@@ -60,6 +58,9 @@
       }
     ],
     "no-console": [
+      "off"
+    ],
+    "no-underscore-dangle": [
       "off"
     ],
     "no-param-reassign": [
@@ -89,7 +90,11 @@
     ],
     "max-lines-per-function": [
       "error",
-      20
+      50
+    ],
+    "complexity": [
+      "error",
+      15
     ],
     "object-curly-newline": [
       "off"
@@ -100,21 +105,6 @@
     "sonarjs/cognitive-complexity": [
       "error",
       15
-    ],
-    "sonarjs/no-one-iteration-loop": [
-      "error"
-    ],
-    "sonarjs/no-identical-expressions": [
-      "error"
-    ],
-    "sonarjs/no-use-of-empty-return-value": [
-      "error"
-    ],
-    "sonarjs/no-extra-arguments": [
-      "error"
-    ],
-    "sonarjs/no-identical-conditions": [
-      "error"
     ],
     "sonarjs/no-collapsible-if": [
       "error"
@@ -128,13 +118,31 @@
     "sonarjs/no-duplicated-branches": [
       "error"
     ],
+    "sonarjs/no-extra-arguments": [
+      "error"
+    ],
+    "sonarjs/no-identical-conditions": [
+      "error"
+    ],
+    "sonarjs/no-identical-expressions": [
+      "error"
+    ],
     "sonarjs/no-identical-functions": [
+      "error"
+    ],
+    "sonarjs/no-inverted-boolean-check": [
+      "error"
+    ],
+    "sonarjs/no-one-iteration-loop": [
       "error"
     ],
     "sonarjs/no-redundant-boolean": [
       "error"
     ],
     "sonarjs/no-unused-collection": [
+      "error"
+    ],
+    "sonarjs/no-use-of-empty-return-value": [
       "error"
     ],
     "sonarjs/no-useless-catch": [
@@ -144,9 +152,6 @@
       "error"
     ],
     "sonarjs/prefer-single-boolean-return": [
-      "error"
-    ],
-    "sonarjs/no-inverted-boolean-check": [
       "error"
     ],
     "react/jsx-filename-extension": [
@@ -307,14 +312,6 @@
         "logical": "ignore",
         "prop": "ignore"
       }
-    ],
-    "react-redux/connect-prefer-named-arguments": [
-      "error"
-    ],
-    "react-redux/no-unused-prop-types": [
-      "error"
-    ],
-    "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
+    ]
   }
 }
