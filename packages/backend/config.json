@@ -9,7 +9,6 @@
     "editorconfig"
   ],
   "rules": {
-    "editorconfig/editorconfig": "error",
     "no-console": "off",
     "arrow-parens": [
       2,
