@@ -1,0 +1,23 @@
+name: lerna-publish
+on:
+  push:
+    branches:
+      - main
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          ref: main
+      - name: Setup Node 15
+        uses: actions/setup-node@v2
+        with:
+          node-version: '15'
+      - name: Install dependencies
+        run: npm ci
+      - name: Publish with Lerna
+        run: npx lerna publish
