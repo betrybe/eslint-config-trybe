@@ -17,7 +17,7 @@ Extend this config on your `.eslintrc.json`:
 ```json
 {
   // ...
-  "extends": ["trybe-backend", "trybe-sql"]
+  "extends": ["trybe-sql"]
   // ...
 }
 ```
