@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.2](https://github.com/betrybe/eslint-config-trybe/compare/eslint-config-trybe-backend@1.0.1...eslint-config-trybe-backend@1.0.2) (2021-03-03)
+
+**Note:** Version bump only for package eslint-config-trybe-backend
+
+
+
+
+
 ## [1.0.1](https://github.com/betrybe/eslint-config-trybe/compare/eslint-config-trybe-backend@1.0.0...eslint-config-trybe-backend@1.0.1) (2021-02-09)
 
 **Note:** Version bump only for package eslint-config-trybe-backend
