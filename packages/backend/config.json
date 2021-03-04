@@ -10,6 +10,12 @@
   ],
   "rules": {
     "no-console": "off",
+    "camelcase": [
+      2,
+      {
+        "ignoreDestructuring": true
+      }
+    ],
     "arrow-parens": [
       2,
       "always"
