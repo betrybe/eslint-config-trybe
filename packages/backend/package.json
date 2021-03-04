@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-trybe-backend",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ESLint shared config used by trybe on Back-end projects",
   "main": "config.json",
   "keywords": [
