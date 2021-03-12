@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/betrybe/eslint-config-trybe/compare/eslint-config-trybe-frontend@1.1.0...eslint-config-trybe-frontend@1.2.0) (2021-03-12)
+
+
+### Features
+
+* implement react-func rule on package/frontend ([77e225d](https://github.com/betrybe/eslint-config-trybe/commit/77e225de210352e2da7f5a262c2d0b05f54a9205))
+
+
+
+
+
 # [1.1.0](https://github.com/betrybe/eslint-config-trybe/compare/eslint-config-trybe-frontend@1.0.0...eslint-config-trybe-frontend@1.1.0) (2021-02-04)
 
 
