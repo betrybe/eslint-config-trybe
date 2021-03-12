@@ -18,7 +18,8 @@
     "react",
     "react-redux",
     "react-hooks",
-    "sonarjs"
+    "sonarjs",
+    "react-func"
   ],
   "rules": {
     "indent": [
@@ -96,6 +97,9 @@
       250
     ],
     "max-lines-per-function": [
+      "off"
+    ],
+    "react-func/max-lines-per-function": [
       "error",
       50
     ],
