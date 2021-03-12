@@ -16,6 +16,7 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-func": "^0.1.17",
     "eslint-plugin-react-hooks": "^1.7.0",
     "eslint-plugin-react-redux": "^3.3.0",
     "eslint-plugin-sonarjs": "^0.5.0"
