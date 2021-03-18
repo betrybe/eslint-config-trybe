@@ -42,7 +42,7 @@
       "error",
       {
         "allow": [
-          "__REDUX_DEV_TOOLS_EXTENSION_COMPOSE__"
+          "__REDUX_DEVTOOLS_EXTENSION_COMPOSE__"
         ]
       }
     ],
