@@ -9,6 +9,7 @@
     "editorconfig"
   ],
   "rules": {
+    "no-restricted-syntax": "off",
     "editorconfig/editorconfig": "error",
     "no-console": "off",
     "no-alert": "off",
@@ -41,7 +42,11 @@
     ],
     "max-lines-per-function": [
       "error",
-      20
+      {
+        "max": 20,
+        "skipBlankLines": true,
+        "skipComments": true
+      }
     ],
     "max-len": [
       "error",
