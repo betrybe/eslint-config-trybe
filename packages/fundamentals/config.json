@@ -9,6 +9,7 @@
     "editorconfig"
   ],
   "rules": {
+    "no-restricted-syntax": "off",
     "editorconfig/editorconfig": "error",
     "no-console": "off",
     "no-alert": "off",
