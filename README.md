@@ -52,8 +52,23 @@ before publishing.
 
 The versioning mode is `independent`.
 
-To publish changed packages, simply run:
+To publish changed packages:
 
+1. Make shure you're logged in npm:
+
+```shell
+npm login
+```
+
+If you're not in our organization, reach us at #func-curriculo:
+
+2. Install the packages
+
+```shell
+npm i
+```
+
+3. Publish:
 ```shell
 $ npx lerna publish
 ```
