@@ -60,7 +60,7 @@ To publish changed packages:
 npm login
 ```
 
-If you're not in our organization, reach us at #func-curriculo:
+If you're not in our organization, reach us at #curriculo-suporte:
 
 2. Install the packages
 
