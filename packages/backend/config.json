@@ -2,11 +2,13 @@
   "root": true,
   "extends": [
     "airbnb/base",
-    "plugin:editorconfig/noconflict"
+    "plugin:editorconfig/noconflict",
+    "plugin:mocha/recommended"
   ],
   "plugins": [
     "sonarjs",
-    "editorconfig"
+    "editorconfig",
+    "mocha"
   ],
   "rules": {
     "no-console": "off",
@@ -117,6 +119,16 @@
       "error"
     ]
   },
+  "overrides": [
+    {
+      "files": ["**/*.{test,spec}.js"],
+      "rules": {
+        "max-lines-per-function": "off",
+        "prefer-arrow-callback": "off",
+        "func-names": "off"
+      }
+    }
+  ],
   "env": {
     "browser": false,
     "node": true,
