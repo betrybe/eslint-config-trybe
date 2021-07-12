@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config-trybe-sql",
+  "version": "1.0.0",
+  "description": "ESLint shared config used by trybe on SQL projects",
+  "main": "config.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "trybe",
+    "backend",
+    "sql"
+  ],
+  "author": "Lizzard <luis.codemaker@gmail.com>",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-plugin-sql": "^1.2.0"
+  }
+}
