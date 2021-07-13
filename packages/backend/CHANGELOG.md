@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.4](https://github.com/betrybe/eslint-config-trybe/compare/eslint-config-trybe-backend@1.0.3...eslint-config-trybe-backend@1.0.4) (2021-07-13)
+
+
+### Features
+
+* **backend/config.json:** added recommended rules n overrides for mocha tests ([2635ecb](https://github.com/betrybe/eslint-config-trybe/commit/2635ecbbfda1d51703ef86c25358357e810d53b4))
+
+
+### Reverts
+
+* Revert "chore(backend): update version to follow semver" ([a9837de](https://github.com/betrybe/eslint-config-trybe/commit/a9837de41554d2e95ed59c85346b5e508374f97c))
+
+
+
+
+
 ## [1.0.3](https://github.com/betrybe/eslint-config-trybe/compare/eslint-config-trybe-backend@1.0.2...eslint-config-trybe-backend@1.0.3) (2021-03-04)
 
 
