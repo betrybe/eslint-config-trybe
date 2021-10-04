@@ -21,6 +21,7 @@
     "sonarjs",
     "react-func"
   ],
+  "parser": "babel-eslint", 
   "rules": {
     "indent": [
       "error",
