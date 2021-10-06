@@ -1,0 +1,31 @@
+{
+  "env": {
+      "es2021": true,
+      "node": true
+  },
+  "extends": [
+      "trybe-backend"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+      "ecmaVersion": 12,
+      "sourceType": "module"
+  },
+  "plugins": [
+      "@typescript-eslint"
+  ],
+  "rules": {
+      "import/prefer-default-export": "off",
+      "import/extensions": "off",
+      "camelcase": ["error", {
+        "allow": ["required_error", "invalid_type_error"]
+      }]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".ts", ".json"]
+      }
+    }
+  }
+}
