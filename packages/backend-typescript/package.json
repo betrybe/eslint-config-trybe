@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-trybe-backend-typescript",
+  "version": "1.0.0",
+  "description": "ESLint shared config used by trybe on Typescript Back-end projects",
+  "main": "config.json",
+  "keywords": [
+    "eslint",
+    "trybe",
+    "backend",
+    "typescript"
+  ],
+  "author": "Roz <roz@rjmunhoz.me>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "eslint-config-trybe-backend": "^1.0.4",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-sonarjs": "^0.10.0"
+  }
+}
