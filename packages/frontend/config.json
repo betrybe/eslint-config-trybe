@@ -241,8 +241,7 @@
       "error"
     ],
     "react/state-in-constructor": [
-      "error",
-      "always"
+      "off"
     ],
     "react/void-dom-elements-no-children": [
       "error"
