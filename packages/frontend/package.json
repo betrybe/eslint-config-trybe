@@ -11,15 +11,15 @@
   "author": "Roz <roz@rjmunhoz.me>",
   "license": "GPL-3.0",
   "dependencies": {
-    "babel-eslint": "^10.1.0",
-    "eslint": "6.8.0",
-    "eslint-config-airbnb": "^18.2.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.21.5",
+    "@babel/eslint-parser": "^7.16.5",
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-func": "^0.1.17",
-    "eslint-plugin-react-hooks": "^1.7.0",
-    "eslint-plugin-react-redux": "^3.3.0",
-    "eslint-plugin-sonarjs": "^0.5.0"
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-react-redux": "^3.3.4",
+    "eslint-plugin-sonarjs": "^0.11.0"
   }
 }
