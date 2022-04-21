@@ -15,7 +15,7 @@
   "author": "Lizzard <luis.codemaker@gmail.com>",
   "license": "GPL-3.0",
   "devDependencies": {
-    "eslint": "^7.20.0",
-    "eslint-plugin-sql": "^1.2.0"
+    "eslint": "7.20.0",
+    "eslint-plugin-sql": "1.2.0"
   }
 }
