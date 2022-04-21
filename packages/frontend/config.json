@@ -21,7 +21,7 @@
     "sonarjs",
     "react-func"
   ],
-  "parser": "babel-eslint", 
+  "parser": "babel-eslint",
   "rules": {
     "indent": [
       "error",
@@ -84,7 +84,7 @@
     "max-len": [
       "error",
       {
-        "code": 90,
+        "code": 100,
         "ignoreComments": true,
         "ignoreUrls": true
       }

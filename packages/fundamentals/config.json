@@ -56,7 +56,8 @@
       "error",
       {
         "code": 100,
-        "ignoreComments": true
+        "ignoreComments": true,
+        "ignoreUrls": true
       }
     ],
     "complexity": [
