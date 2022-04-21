@@ -40,6 +40,10 @@
       "error",
       250
     ],
+    "indent": [
+      "error",
+      2
+    ],
     "max-lines-per-function": [
       "error",
       {
