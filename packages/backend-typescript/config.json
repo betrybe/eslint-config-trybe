@@ -19,7 +19,11 @@
       "import/extensions": "off",
       "camelcase": ["error", {
         "allow": ["required_error", "invalid_type_error"]
-      }]
+      }],
+      "no-unused-vars": "off",
+      "@typescript-eslint/no-unused-vars": ["error"],
+      "no-shadow": "off",
+      "@typescript-eslint/no-shadow": "error"
   },
   "settings": {
     "import/resolver": {
