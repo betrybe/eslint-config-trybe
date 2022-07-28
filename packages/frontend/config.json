@@ -1,7 +1,7 @@
 {
   "env": {
     "browser": true,
-    "es2020": true
+    "es2022": true
   },
   "extends": [
     "plugin:react/recommended",
@@ -12,6 +12,7 @@
     "ecmaFeatures": {
       "jsx": true
     },
+    "ecmaVersion": 2022,
     "sourceType": "module"
   },
   "plugins": [
@@ -21,7 +22,7 @@
     "sonarjs",
     "react-func"
   ],
-  "parser": "babel-eslint", 
+  "ignorePatterns": ["cypress/*"], 
   "rules": {
     "indent": [
       "error",
@@ -331,6 +332,7 @@
       "error"
     ],
     "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
+    "react-hooks/exhaustive-deps": "warn", 
+    "react/react-in-jsx-scope": "off"
   }
 }
