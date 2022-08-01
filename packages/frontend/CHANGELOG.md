@@ -8,6 +8,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * **frontend:** bump versions for all dependencies (ESLint v8)
 * **frontend:** Resolves bug with `create-react-app` v5. (removes babel parser)
 * **frontend:** Added peerDependencies - now sonarJS is installed automatically 😋 (and other benefits)
+* **frontend:** Rule: 'default-param-last' is OFF
 * **frontend:** Rule: 'React' must be in scope when using JSX is now OFF
 * **frontend:** Eslint no longer runs in cypress folder! "ignorePatterns": ["cypress/*"],
 * **frontend:** Ecmaversion now is 2022
