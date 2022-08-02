@@ -8,7 +8,7 @@
     "trybe",
     "backend"
   ],
-  "author": "Roz <roz@rjmunhoz.me>",
+  "author": "Equipe Back Trybe",
   "license": "GPL-3.0",
   "dependencies": {
     "eslint": "8.15.0",
