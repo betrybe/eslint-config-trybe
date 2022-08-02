@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [1.3](https://github.com/betrybe/eslint-config-trybe/compare/eslint-config-trybe-frontend@1.2.3...eslint-config-trybe-frontend@1.3.0) (2022-07-28)
+# [1.3](https://github.com/betrybe/eslint-config-trybe/compare/eslint-config-trybe-frontend@1.2.3...eslint-config-trybe-frontend@1.3.0) (2022-07-28)
 
 * **frontend:** bump versions for all dependencies (ESLint v8)
 * **frontend:** Resolves bug with `create-react-app` v5. (removes babel parser)
