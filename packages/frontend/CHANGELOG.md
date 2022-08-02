@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3](https://github.com/betrybe/eslint-config-trybe/compare/eslint-config-trybe-frontend@1.2.3...eslint-config-trybe-frontend@1.3.0) (2022-07-28)
+
+* **frontend:** bump versions for all dependencies (ESLint v8)
+* **frontend:** Resolves bug with `create-react-app` v5. (removes babel parser)
+* **frontend:** Added peerDependencies - now sonarJS is installed automatically 😋 (and other benefits)
+* **frontend:** Rule: 'default-param-last' is OFF
+* **frontend:** Rule: 'React' must be in scope when using JSX is now OFF
+* **frontend:** Eslint no longer runs in cypress folder! "ignorePatterns": ["cypress/*"],
+* **frontend:** Ecmaversion now is 2022
+
+
 ## [1.2.3](https://github.com/betrybe/eslint-config-trybe/compare/eslint-config-trybe-frontend@1.2.2...eslint-config-trybe-frontend@1.2.3) (2022-02-01)
 
 **Note:** Version bump only for package eslint-config-trybe-frontend
