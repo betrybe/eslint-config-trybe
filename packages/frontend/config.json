@@ -87,7 +87,8 @@
       {
         "code": 90,
         "ignoreComments": true,
-        "ignoreUrls": true
+        "ignoreUrls": true,
+        "ignoreRegExpLiterals": true
       }
     ],
     "max-params": [
@@ -196,10 +197,10 @@
       "error"
     ],
     "react/no-did-mount-set-state": [
-      "error"
+      "off"
     ],
     "react/no-did-update-set-state": [
-      "error"
+      "warn"
     ],
     "react/jsx-props-no-spreading": [
       "off"
