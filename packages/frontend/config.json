@@ -196,12 +196,6 @@
     "react/forbid-prop-types": [
       "error"
     ],
-    "react/no-did-mount-set-state": [
-      "off"
-    ],
-    "react/no-did-update-set-state": [
-      "warn"
-    ],
     "react/jsx-props-no-spreading": [
       "off"
     ],
