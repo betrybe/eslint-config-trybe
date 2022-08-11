@@ -19,7 +19,8 @@
     "eslint-plugin-react-func": "0.1.17",
     "eslint-plugin-react-hooks": "4.6.0",
     "eslint-plugin-react-redux": "4.0.0",
-    "eslint-plugin-sonarjs": "0.14.0"
+    "eslint-plugin-sonarjs": "0.14.0",
+    "lodash": "4.17.21"
   },
   "peerDependencies": {
     "eslint": "8.20.0",
@@ -30,6 +31,7 @@
     "eslint-plugin-react-func": "0.1.17",
     "eslint-plugin-react-hooks": "4.6.0",
     "eslint-plugin-react-redux": "4.0.0",
-    "eslint-plugin-sonarjs": "0.14.0"
+    "eslint-plugin-sonarjs": "0.14.0",
+    "lodash": "4.17.21"
   }
 }
