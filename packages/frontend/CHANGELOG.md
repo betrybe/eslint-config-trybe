@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.1](https://github.com/betrybe/eslint-config-trybe/compare/eslint-config-trybe-frontend@1.3.0...eslint-config-trybe-frontend@1.3.1) (2022-08-15)
+
+**Note:** Version bump only for package eslint-config-trybe-frontend
+
+
+
+
+
 # [1.3.0](https://github.com/betrybe/eslint-config-trybe/compare/eslint-config-trybe-frontend@1.2.3...eslint-config-trybe-frontend@1.3.0) (2022-08-02)
 
 
