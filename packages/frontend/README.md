@@ -14,7 +14,7 @@ $ npm i eslint-config-trybe-frontend
 
 Extend this config on your `.eslintrc.json`:
 
-```json
+```javascript
 {
   // ...
   "extends": "trybe-frontend"
