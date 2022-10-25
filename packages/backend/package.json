@@ -11,11 +11,11 @@
   "author": "Roz <roz@rjmunhoz.me>",
   "license": "GPL-3.0",
   "dependencies": {
-    "eslint": "8.26.0",
-    "eslint-config-airbnb": "19.0.4",
-    "eslint-plugin-editorconfig": "4.0.2",
-    "eslint-plugin-import": "2.26.0",
-    "eslint-plugin-mocha": "10.1.0",
-    "eslint-plugin-sonarjs": "0.16.0"
+    "eslint": "^8.26.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-editorconfig": "^4.0.2",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-mocha": "^10.1.0",
+    "eslint-plugin-sonarjs": "^0.16.0"
   }
 }
