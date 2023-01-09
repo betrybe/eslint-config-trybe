@@ -63,12 +63,7 @@
       }
     ],
     "react/button-has-type": [
-      "error",
-      {
-        "button": true,
-        "submit": true,
-        "reset": true
-      }
+      "off"
     ],
     "no-console": [
       "off"
@@ -114,6 +109,9 @@
       "off"
     ],
     "import/no-extraneous-dependencies": [
+      "off"
+    ],
+    "import/prefer-default-export": [
       "off"
     ],
     "sonarjs/cognitive-complexity": [
