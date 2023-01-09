@@ -318,6 +318,9 @@
         "prop": "ignore"
       }
     ],
+    "react/jsx-one-expression-per-line": [
+      "off"
+    ],
     "react-redux/connect-prefer-named-arguments": [
       "error"
     ],
