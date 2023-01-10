@@ -63,7 +63,12 @@
       }
     ],
     "react/button-has-type": [
-      "off"
+      "error",
+      {
+        "button": true,
+        "submit": true,
+        "reset": true
+      }
     ],
     "no-console": [
       "off"
