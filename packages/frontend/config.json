@@ -63,12 +63,7 @@
       }
     ],
     "react/button-has-type": [
-      "error",
-      {
-        "button": true,
-        "submit": true,
-        "reset": true
-      }
+      "off"
     ],
     "no-console": [
       "off"
@@ -322,9 +317,6 @@
         "logical": "ignore",
         "prop": "ignore"
       }
-    ],
-    "react/jsx-one-expression-per-line": [
-      "off"
     ],
     "react-redux/connect-prefer-named-arguments": [
       "error"
