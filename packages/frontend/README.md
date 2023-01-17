@@ -1,18 +1,18 @@
 # eslint-config-trybe-frontend
 
-ESLint Shared config used by trybe on projects of the Front-end module
+Configurações utilizadas pela Trybe em projetos Front-End!
 
-## Installation
+## Instalação
 
-Simply install this through npm:
+basta instalar através do npm (ou gerenciador favorito):
 
 ```shell
 $ npm i eslint-config-trybe-frontend
 ```
 
-## Usage
+## Uso
 
-Extend this config on your `.eslintrc.json`:
+Basta adicionar no seu `.eslintrc.json`:
 
 ```javascript
 {
@@ -21,3 +21,14 @@ Extend this config on your `.eslintrc.json`:
   // ...
 }
 ```
+
+## Possíveis problemas
+
+Eventualmente pode ser necessário que você instale manualmente as `peerDependencies`. 
+Se esse for o caso, basta rodar o comando: 
+
+```shell
+npx install-peerdeps --dev eslint-config-trybe-frontend
+```
+
+Isso deverá resolver o problema. Qualquer coisa, abra uma issue que ficaremos felizes em resolver :) 
