@@ -85,6 +85,12 @@
         "allowRequiredDefaults": false
       }
     ],
+    "react/require-default-props": [
+      "error",
+      {
+        "functions": "defaultArguments"
+      }
+    ],
     "react/no-array-index-key": ["off"],
     "react/destructuring-assignment": ["error", "always"],
     "react/forbid-component-props": ["error"],
