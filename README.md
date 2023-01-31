@@ -10,7 +10,6 @@ names.
 These are the package names for each module:
 
 - Fundamentals: `eslint-config-trybe-fundamentals`
-- Front-end: `eslint-config-trybe-frontend`
 - Back-end: `eslint-config-trybe-backend`
 
 Once you've chosen a package, install it with:
