@@ -1,5 +1,7 @@
 # eslint-config-trybe-frontend
 
+⚠️ Atenção - Este pacote está sendo deprecado. Utilize o pacote `@trybe/eslint-config-frontend`
+
 Configurações utilizadas pela Trybe em projetos Front-End!
 
 ## Instalação
