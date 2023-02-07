@@ -1,6 +1,6 @@
 # eslint-config-trybe
 
-ESLint shared configs used by projects from the Fundamentals, Front-end and Back-end modules
+ESLint shared configs used by projects from the Fundamentals and Back-end modules
 
 ## Installation
 
