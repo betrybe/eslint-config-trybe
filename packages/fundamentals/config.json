@@ -40,6 +40,10 @@
       "error",
       250
     ],
+    "indent": [
+      "error",
+      2
+    ],
     "max-lines-per-function": [
       "error",
       {
@@ -52,7 +56,8 @@
       "error",
       {
         "code": 100,
-        "ignoreComments": true
+        "ignoreComments": true,
+        "ignoreUrls": true
       }
     ],
     "complexity": [

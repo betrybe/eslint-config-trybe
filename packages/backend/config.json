@@ -26,6 +26,10 @@
       2,
       "single"
     ],
+    "indent": [
+      "error",
+      2
+    ],
     "implicit-arrow-linebreak": "off",
     "consistent-return": "off",
     "no-unused-vars": [
@@ -56,7 +60,8 @@
       "error",
       {
         "code": 100,
-        "ignoreComments": true
+        "ignoreComments": true,
+        "ignoreUrls": true
       }
     ],
     "complexity": [
