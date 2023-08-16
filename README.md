@@ -1,6 +1,6 @@
 # eslint-config-trybe
 
-ESLint shared configs used by projects from the Fundamentals, Front-end and Back-end modules
+ESLint shared configs used by projects from the Fundamentals and Back-end modules
 
 ## Installation
 
@@ -10,7 +10,6 @@ names.
 These are the package names for each module:
 
 - Fundamentals: `eslint-config-trybe-fundamentals`
-- Front-end: `eslint-config-trybe-frontend`
 - Back-end: `eslint-config-trybe-backend`
 
 Once you've chosen a package, install it with:
